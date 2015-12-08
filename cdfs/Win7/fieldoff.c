@@ -3,6 +3,8 @@
 
 #define doit(a,b) { printf("%s %04lx %4lx %s\n", #a, FIELD_OFFSET(a,b), sizeof(d.b), #b); }
 
+//ASHISH: from clone
+
 VOID
 __cdecl
 main (argc, argv)
